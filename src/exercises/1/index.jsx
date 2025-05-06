@@ -12,7 +12,7 @@ function Exercise1() {
 
   function handleOnLike() {
     setIsLike((isLike) => !isLike);
-    setLikes((prev) => prev + (isLike ? 1 : -1));
+    setLikes((prev) => prev + (isLike ? -1 : 1));
   }
 
   return (
